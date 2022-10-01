@@ -12,18 +12,18 @@ mini-db-router:
       db00:
         driver-class-name: com.mysql.jdbc.Driver
         url: jdbc:mysql://81.69.251.88:3306/lottery?useUnicode=true
-        username: root
+        username: lottery
         password: 111111
       db01:
         driver-class-name: com.mysql.jdbc.Driver
         url: jdbc:mysql://81.69.251.88:3306/lottery_01?useUnicode=true
-        username: root
+        username: lottery_01
         password: 111111
       db02:
         driver-class-name: com.mysql.jdbc.Driver
         url: jdbc:mysql://81.69.251.88:3306/lottery_02?useUnicode=true
-        username: root
+        username: lottery_02
         password: 111111
 mybatis:
-  mapper-locations: classpath:/mybatis/mapper/*.xml
-  config-location:  classpath:/mybatis/config/mybatis-config.xml
+  mapper-locations: classpath:/com/xbhog/mapper/*.xml
+  config-location:  classpath:/config/mybatis-config.xml

@@ -30,7 +30,7 @@ public class dbRouterTest {
         userTakeActivity.setTakeDate(new Date());
         userTakeActivity.setTakeCount(10);
         userTakeActivity.setUuid("Uhdgkw766120d");
-        userTakeActivityDao.insert(userTakeActivity);
+        userTakeActivityDao.insertDB(userTakeActivity);
     }
 
 
