@@ -11,19 +11,19 @@ mini-db-router:
       list: db01,db02
       db00:
         driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://81.69.251.88:3306/lottery?useUnicode=true
-        username: lottery
-        password: 111111
+        url: jdbc:mysql://xx.xx.xxx.xx.xxxx/xxxx?useUnicode=true
+        username: xxxx
+        password: xxx
       db01:
         driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://81.69.251.88:3306/lottery_01?useUnicode=true
-        username: lottery_01
-        password: 111111
+        url: jdbc:mysql://xx.xx.xxx.xx.xxxx/xxxx_01?useUnicode=true
+        username: xxxx_01
+        password: xxx
       db02:
         driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://81.69.251.88:3306/lottery_02?useUnicode=true
-        username: lottery_02
-        password: 111111
+        url: jdbc:mysql://xx.xx.xxx.xx.xxxx/xxxx_02?useUnicode=true
+        username: xxxx_02
+        password: xxx
 mybatis:
   mapper-locations: classpath:/com/xbhog/mapper/*.xml
   config-location:  classpath:/config/mybatis-config.xml
